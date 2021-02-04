@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background:linear-gradient(rgb(255, 72, 0),rgb(255, 153, 0)), url("../images/Overlay.png");
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#topbar{padding:15px 0; font-size:.8rem; text-transform:lowercase;text-align: center; color: rgba(255, 255, 255, 0.774);}
+
+#topbar *{margin:0;}
+#topbar ul li{display:inline-block; margin-right:15px;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none; margin-right: 100px;}
+#topbar i{line-height:normal;}
+#topbar > div:first-of-type ul li i{margin-right:5px;}
+#topbar ul li a{display: inline; text-transform: uppercase; color: rgb(250, 131, 110);}
+
+.logo{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 50px;
+    text-align: center;
+    border-bottom:2px solid white;
+
+}
+.nav-menu{
+    list-style: none;
+    
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+}
+
+.nav-menu li a{
+    text-decoration: white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+cart::after{
+    counter-reset: 0;
+    background-color: rgb(252, 165, 34);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 5px;
+    height: 5px;
+    
+}
+
+.cart:hover{
+    background-color:rgb(255, 72, 0);
+    border: 1px solid #ad4921;
+}
+.header-title{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.header-caption{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.header-search{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    transition: all;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+
+.location p a{
+    color: thistle;
+
+}
+/******************************************/
+
+/******************schedule****************/
+.schedule{
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+
+}
+
+.section-header{
+    display: inline;
+}
+.section-header h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    font-size: 40px;
+    color:rgb(255, 72, 0);
+    border-left:  3px solid #ad4921;
+    margin-left: 30px;
+    padding-top: 80px;
+    display: inline;
+}
+.calender{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 800px;
+}
+.events{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 40px;
+    
+    
+}
+.text-on{
+    text-align: right;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+.events li{
+    display: inline-block;
+    margin: 70px 70px;
+    padding-bottom: 10px;
+    
+}
+.events button{
+    background-color: black;
+    padding-top: 120px;
+    border: none;
+    color: rgb(255, 72, 0);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    grid-column: 2;
+    border:  2px solid #ad4921;
+}
+.events button a{
+    padding-top: 120px;
+    background-color:white;
+    border: none;
+    color: rgb(255, 72, 0);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    grid-column: 2;
+    border:  2px solid #ad4921;
+}
+
+.events button a:hover{
+    background-color:rgb(255, 72, 0);
+    color: white;
+    border: 1px solid #ad4921;
+}
+/*******************************************/
+
+/***********************upcomingevents******/
+.upcoming-events{
+    background-color: white;
+    justify-content: center;
+    margin-top: 30px;
+}
+.upcoming-events h4{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color:rgb(255, 72, 0);
+    border-left:  3px solid #ad4921;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.description{
+    
+    display: grid;
+    padding-top: 40px;
+}
+
+.description p{
+        color: navy;
+        text-indent: 20px;
+        grid-column: 1;
+        margin-left: 50px;
+        font-size: 20px;
+        
+}
+.description button{
+    background-color:white;
+    border: none;
+    color: rgb(255, 72, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    grid-column: 2;
+    border:  2px solid #ad4921;
+    
+}
+.description button:hover{
+    background-color:rgb(255, 72, 0);
+    color: white;
+    border: 1px solid #ad4921;
+}
+.image-set{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 100px;
+}
+
+.img {
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: grid;
+}
+.image-1{
+    background-image: url("../images/bmw.jpg");
+    background-size: cover;
+    
+}
+.image-2{
+    background-image: url("../images/ochestra.jpg");
+    background-size: cover;
+}
+.image-3{
+    background-image: url("../images/meetup.jpg");
+    background-size: cover;
+
+}
+.text-block{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    bottom: 340px;
+    left: 20px;
+    right: 350px;
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .block-p{
+      text-align: center;
+  }
+.img-h1{
+    margin-top: 300px;
+    font-size: 30px;
+    color: rgb(243, 77, 77);
+    text-align: left;
+    grid-column: 1;
+}
+.img-h2{
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(248, 156, 168);
+    text-align: left;
+    grid-column: 1;
+}
+
+.button-ticket a{
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    grid-column: 2;
+    padding: 10px 15px;
+    background-color: tomato;
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    
+}
+
+.button-ticket a:hover{
+    background-color:white;
+    border: 1px solid #ad4921;
+    color: tomato;
+}
+
+/****************************************/
+
+/************eventbycategories***********/
+.event-by-categories{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: violet;
+}
+
+.event-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color:rgb(255, 72, 0);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.grid-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.grid-items > div {
+    background-color: rgba(243, 184, 184, 0.8);
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 30px;
+  }
+.concerts{
+    grid-row: 1;
+}
+.sports{
+    grid-row: 1;
+}
+
+.theaters{
+
+    grid-row: 1;
+}
+.parties{
+    grid-row: 2;
+}
+.communities{
+    grid-row: 2;
+}
+.classes{
+    grid-row: 2;
+}
+
+/****************************************/
+
+/***************active******************/
+.active-bar{
+    background-color: black;
+}
+
